@@ -1,0 +1,15 @@
+@mixin desktop-1024(){
+    @media (max-width: 1024px){
+        @content
+    }
+}
+@mixin pad(){
+    @media (max-width: 767px){
+        @content
+    }
+}
+@mixin mobile-567(){
+    @media (max-width: 567px){
+        @content
+    }
+}
