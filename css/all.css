@@ -91,6 +91,14 @@ img {
   height: auto;
 }
 
+input {
+  border-radius: 0;
+}
+
+input[type="search"] {
+  -webkit-appearance: none;
+}
+
 .wrap {
   max-width: 1024px;
   margin: 0 auto;
